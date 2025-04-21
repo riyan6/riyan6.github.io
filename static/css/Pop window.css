@@ -1,0 +1,13 @@
+.pop_panel{
+	background-color: #000000;
+	color: #BD081D;
+	position: fixed;
+	padding: 35px;
+	width: 880px;
+	_position: absolute;
+	top: 50%;
+	left:50%;
+	z-index: 100;
+	margin-left: -500px;
+	margin-top: -250px;
+}

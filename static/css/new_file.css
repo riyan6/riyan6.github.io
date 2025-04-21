@@ -1,0 +1,21 @@
+<style>
+    /* 设置包含图片的容器为 flex 布局 */
+    .vlt-partners2 {
+        display: flex;
+        flex-wrap: wrap;  /* 允许换行 */
+        gap: 150px; /* 设置图片之间的间距为 150px */
+        justify-content: space-between; /* 确保图片之间对齐 */
+    }
+
+    /* 设置每个图片的宽度 */
+    .vlt-partners2 li {
+        width: calc(33.33% - 100px); /* 计算每张图片的宽度，减去间距的一半 */
+        list-style: none;  /* 去除列表项的默认样式 */
+    }
+
+    /* 设置图片自适应大小 */
+    .wider2 {
+        width: 100%; /* 让图片占满所在的 li 宽度 */
+        height: auto; /* 保持图片纵横比 */
+    }
+</style>
